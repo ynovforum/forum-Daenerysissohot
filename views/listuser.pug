@@ -1,0 +1,15 @@
+html
+    head
+        title projet web jerem.v
+        link(rel="stylesheet",href="styles.css")
+
+    body
+
+        h2 liste des questions
+            for user in users
+                question
+                h1 #{user.name}
+                p description :
+                h1 #{user.bio}
+                p auteur :
+                h1 #{user.role}

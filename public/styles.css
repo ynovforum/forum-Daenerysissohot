@@ -1,0 +1,90 @@
+body {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+input{
+    background-color: ghostwhite;
+}
+
+
+
+.cadrelogin{
+    border-style:outset;
+    color:gray;
+    background-color: white;
+    margin-right: 549px;
+    margin-left: 511px;
+}
+
+.cadreoverview{
+    border-style:outset;
+    background-color: white;
+    margin-right:50px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right:0px;
+    text-align: left;
+    color:grey;
+}
+
+.cadrepost{
+    border-style:outset;
+    background-color: white;
+    margin-right: 117px;
+    margin-left: 42px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    color: grey;
+}
+
+.cadrecomment{
+    border-style:outset;
+    background-color: white;
+    margin-right: 117px;
+    margin-left: 42px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    color: grey;
+}
+
+.cadrecommentlist{
+    border-style:outset;
+    background-color: white;
+    margin-right: 117px;
+    margin-left: 42px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    color: grey;
+}

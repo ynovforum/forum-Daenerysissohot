@@ -1,0 +1,24 @@
+//      j'ai temporairement deplacé la liste des questions avec ces commentaires ici, car dans home.pug
+                ça plante
+
+                  h2 liste des questions
+                  for question in questions
+                          question
+                          h1 #{question.title}
+                          p description :
+                          h1 #{question.description}
+                          p auteur :
+                          h1 #{question.user_id}
+                          p resolu :
+                          h1 #{question.resolved_at}
+
+
+                                   // afficher commentaire
+                          for comment in comments
+                              comment
+                              p les commentaires :
+                              p auteur :
+                              h1 #{comment.user_id}
+                              p commentaire :
+                              h1 #{comment.content}
+                  //

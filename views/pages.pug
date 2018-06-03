@@ -1,0 +1,30 @@
+html
+    head
+        title projet web jerem.v
+        link(rel="stylesheet",href="styles.css")
+
+    body
+
+        div(class='cadrecommentlist')
+        
+            h2 liste des commentaires de la page "#{contentPage[0]}"
+            p #{contentPage[1]}
+            -if(Comments.length>0){
+            -for(i=0;i<Comments.length;i++){
+                p #{Users[i]} a dit
+                p #{Comments[i]}
+            -}}
+            -else{
+                    p Pas de commentaires sur cette page
+            -}
+
+                    h2 ajouter un commentaire!
+
+
+                    form(method="GET", action="/api/comment")
+                        input(type="text", name="content", placeholder="votre commentaire")
+                        br
+                        input(type="hidden", value=idpage,name="idpage")
+                        button(type="submit") Valider votre commentaire
+        
+

@@ -1,0 +1,48 @@
+html
+    head
+        title projet web jerem.v
+        link(rel="stylesheet",href="styles.css")
+
+    body
+        ul
+            div(class='cadreoverview')
+                h2 Overview
+
+            div(class='cadrepost')
+                form(method="GET", action="/api/question/")
+                    input(type="text", name="title", placeholder="titre de votre question")
+                    br
+                    input(type="text", name="description", placeholder="description")
+                    br
+                    img(src='question.png' height='40px' width='70px')
+
+
+
+                    button(type="submit") Post
+
+
+
+            div(class='cadrecomment')
+                - for(i=0;i<Subjects.length;i++)
+                    p
+                        a(href="pages?id="+Ids[i]) #{Subjects[i]} a été écrit par #{Users[i]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
